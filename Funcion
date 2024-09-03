@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Sitio de Novelas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Conectamos el archivo CSS -->
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Bienvenido a Tu Sitio de Novelas</h1>
+        <nav>
+            <ul>
+                <li><a href="#novelas">Novelas</a></li>
+                <li><a href="#historias">Historias</a></li>
+                <li><a href="#sobre">Sobre la Página</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Novelas -->
+    <section id="novelas">
+        <h2>Novelas</h2>
+        <p>Aquí puedes subir y leer novelas.</p>
+        <!-- Agregarás más contenido aquí -->
+    </section>
+
+    <!-- Sección de Historias -->
+    <section id="historias">
+        <h2>Historias</h2>
+        <p>Aquí puedes subir y leer historias cortas.</p>
+        <!-- Agregarás más contenido aquí -->
+    </section>
+
+    <!-- Sección Sobre la Página -->
+    <section id="sobre">
+        <h2>Sobre la Página</h2>
+        <p>Información sobre el propósito de la página y su creador.</p>
+        <!-- Agregarás más contenido aquí -->
+    </section>
+
+    <!-- Reproductor de música personalizado -->
+    <footer>
+        <audio controls>
+            <source src="tu-musica-personalizada.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+    </footer>
+
+    <script src="script.js"></script> <!-- Conectamos el archivo JavaScript -->
+</body>
+</html>
