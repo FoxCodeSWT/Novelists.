@@ -1,0 +1,8 @@
+<!-- Añade esto dentro de la etiqueta <body> al inicio -->
+<script>
+    let password = prompt("Por favor, ingresa la contraseña:");
+    if (password !== "tu-contraseña-segura") {
+        alert("Contraseña incorrecta.");
+        window.location.href = "https://google.com"; // Redirige a otra página si la contraseña es incorrecta
+    }
+</script>
